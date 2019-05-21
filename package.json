@@ -1,0 +1,17 @@
+{
+  "name": "flashcards",
+  "version": "1.0.0",
+  "description": "based on a TeamTreeHouse Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ms",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {}
+}
