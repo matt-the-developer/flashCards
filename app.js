@@ -9,6 +9,18 @@ app.use(cookieParser());
 
 app.set('view engine', 'pug');
 
+app.use((req, res, next) => {
+    console.log('hello');
+    next();
+});
+
+app.use((req, res, next) => {
+    console.log('world');
+    next();
+});
+
+
+
 app.get('/', (req, res) => {
     const name = req.cookies.username;
     if (name) { 
@@ -31,12 +43,6 @@ app.get('/hello', (req, res) => {
     }else {
         res.render('hello');
     }
-});
-
-
-app.get('/goodbye', (req, res) => {
-    res.render('goodbye', {
-    });
 });
 
 
