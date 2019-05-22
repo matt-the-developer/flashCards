@@ -1,2 +1,2 @@
 # flashCards
-Based on TeamTreeHouse express tutorial
+Based on TeamTreeHouse Express.js course
