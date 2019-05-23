@@ -1,0 +1,32 @@
+{
+    "data": {
+        "title": "Trivia Flashcards",
+        "cards": [
+            {
+                "question": "Who is Tony Stark?",
+                "hint": "Has metal in the name",
+                "answer": "JavaScript"
+            },
+            {
+                "question": "Who is the caped crusader of Gotham city?",
+                "hint": "Has an affinity with flying creatures of the night",
+                "answer": "Batman"
+            },
+            {
+                "question": "Who's the blue ninja from Mortal Kombat?",
+                "hint": "His name is a reference to the cold",
+                "answer": "Sub Zero"
+            },
+            {
+                "question": "How many PowerPuff Girls are there?",
+                "hint": "It's a crowd",
+                "answer": "3"
+            },
+            {
+                "question": "What state is Disneyland in?",
+                "hint": "Walt's original park",
+                "answer": "California"
+            }
+        ]
+    }
+}
